@@ -52,9 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -671,13 +671,13 @@
       <Project>{51705827-0dd2-c6ff-492e-c9ede6a92424}</Project>
       <Name>Unity.2D.PixelPerfect</Name>
     </ProjectReference>
-    <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{d5c0f47b-85fa-b5eb-2cf2-d1b754be6ea5}</Project>
-      <Name>PsdPlugin</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{ce8a049f-0ff6-9179-76ed-f0ae8086013c}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{d5c0f47b-85fa-b5eb-2cf2-d1b754be6ea5}</Project>
+      <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{08bc353b-9be6-ec47-2b1e-39cb7bcdac6a}</Project>
@@ -711,6 +711,10 @@
       <Project>{6f10a07a-c2eb-12c6-5c27-a0333a476538}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{c6493e3c-a4c2-f7df-1e79-bbe2114f5b1b}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{c52ec270-4580-63f8-a230-b7e9b768c732}</Project>
       <Name>UnityEditor.UI</Name>
@@ -726,10 +730,6 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{116e474e-d489-2fb6-f5e9-ea16132893e3}</Project>
       <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{c6493e3c-a4c2-f7df-1e79-bbe2114f5b1b}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{5facb400-80a4-4142-f5e2-efcaf4cd6dc2}</Project>

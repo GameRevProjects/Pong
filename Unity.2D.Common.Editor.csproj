@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\ImagePacker\ImagePacker.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\ImagePacker\Jobs\FindTightRectJob.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\ImagePacker\ImagePacker.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\TextureGenerator\TextureGeneratorHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\ImagePacker\ImagePackNode.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\ImagePacker\ImagePackerDebugEditor.cs" />
      <None Include="Library\PackageCache\com.unity.2d.common@4.0.4\Editor\Unity.2D.Common.Editor.asmdef" />

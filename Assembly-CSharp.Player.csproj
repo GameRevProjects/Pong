@@ -52,9 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\Ball.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -278,11 +278,11 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
- <Reference Include="PsdPlugin">
- <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
- </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -302,6 +302,9 @@
  <Reference Include="Unity.2D.Path.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -310,9 +313,6 @@
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>C:/Users/feder/Documents/Unity Projects/GameRev - Pong/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
